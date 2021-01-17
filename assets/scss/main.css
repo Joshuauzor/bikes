@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  padding: 7%;
+  border-color: white;
+}
+
+.container .navbar-top {
+  padding-left: 0;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container .section {
+  margin-top: 30px;
+}
+
+.container .section li {
+  list-style: none;
+}
+
+.container .section li .fas {
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px whitesmoke;
+  padding: 0.3em 0.2em;
+  margin: 2.3px 0;
+}
+
+.container .cen-bike img {
+  width: 98%;
+}
+/*# sourceMappingURL=main.css.map */

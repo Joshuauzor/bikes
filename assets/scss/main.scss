@@ -1,0 +1,42 @@
+@import 'config';
+@import 'function';
+
+body{
+    // background-color: $dark-color;
+    // color: $light-color;
+    @include set-background-color($bg-dark);
+}
+
+.container{
+    // background-color: $dark-color;
+    padding: 7%;
+    // border-radius: 10px;
+    border-color:white;
+    .navbar-top{
+        padding-left: 0;
+    }
+    a{
+        color: $light-color;
+        text-decoration: none;
+        
+    }
+  .section{
+      margin-top: 30px;
+      li{
+          list-style: none;
+          .fas{
+                display: inline-block;
+                border-radius: 50px;
+                box-shadow: 0px 0px 2px rgb(245, 245, 245);
+                padding: 0.3em 0.2em;
+                margin: 2.3px 0;
+            }
+        }
+    }
+
+  .cen-bike{
+      img{
+        width: 98%;
+      }
+  }
+}

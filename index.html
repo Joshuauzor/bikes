@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Bike</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/5b45849211.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-top bg-danger">
+            <!-- <div class="collapse navbar-collapse"> -->
+                <div>
+                    <ul class="navbar nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Bikes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Gear</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">More</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar nav">
+                        <li class="nav-brand">
+                            <a href="" class="nav-item"><h3>Bikes</h3></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <div class="px-4"><i class="fas fa-search"></i></div>
+                    <div><i class="fas fa-cart-plus"></i></div>
+                </div>
+            <!-- </div> -->
+        </nav>
+        <div class="row section my-20px">
+            <div class="col-3">
+                <h1 class="text-uppercase">Road <br><span class="bike">Bikes</span></h1>
+                <p class="lead">The road calls. From High Mountain Peak to neighborhood streets and bike paths. Giant </p>
+                <p class="text-uppercase">- See More..</p>
+            </div>
+            <div class="col-6 cen-bike">
+                <img src="./assets/images/bike.png" alt="bike" srcset="">
+            </div>
+            <div class="col-3">
+                <li><i class="fas fa-bicycle"></i> Road Bikes</li>
+                <li><i class="fas fa-bicycle"></i> Mountain Bikes</li>
+                <li><i class="fas fa-bicycle"></i> Cross & Gravel Bikes</li>
+                <li><i class="fas fa-bicycle"></i> Electric Bikes</li>
+                <li><i class="fas fa-bicycle"></i> Kid Bikes</li>
+            </div>
+        </div>
+        <!-- <footer>
+            <div class="justify-content-center align-items-center align-self-center text-center"><i class="fas fa-bicycle"></i></div>
+        </footer> -->
+    </div>
+
+    <script>
+        var yearsBorn = ['2004', '1993', '1990', '2004', '2010', '2006', '1999', '2000'];
+        var ages = [];
+
+        for(var i= 0; i < yearsBorn.length; i++){
+            ages[i] = 2021 - yearsBorn[i]; 
+            console.log(ages);
+        }
+
+    </script>
+</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
